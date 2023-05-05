@@ -1,0 +1,69 @@
+¿Qué es ChatGPT?
+A) Un tipo de café.
+B) Una marca de ropa.
+C) Un modelo de lenguaje artificial.
+D) Una aplicación de edición de fotos.
+Respuesta: C) Un modelo de lenguaje artificial.
+
+¿En qué año fue lanzado ChatGPT?
+A) 2017
+B) 2018
+C) 2019
+D) 2020
+Respuesta: D) 2020
+
+¿Quién desarrolló ChatGPT?
+A) Facebook
+B) Google
+C) OpenAI
+D) Amazon
+Respuesta: C) OpenAI
+
+¿Qué significa la sigla "GPT" en ChatGPT?
+A) Grupo de Programadores Técnicos.
+B) Generador de Procesamiento de Texto.
+C) Gran Proyecto de Tecnología.
+D) Gráfico de Procesamiento Técnico.
+Respuesta: B) Generador de Procesamiento de Texto.
+
+¿En qué se basa el funcionamiento de ChatGPT?
+A) En el análisis de imágenes.
+B) En el reconocimiento de voz.
+C) En la generación de texto.
+D) En la edición de videos.
+Respuesta: C) En la generación de texto.
+
+¿Qué tipo de lenguaje utiliza ChatGPT?
+A) Lenguaje de programación.
+B) Lenguaje natural.
+C) Lenguaje de señas.
+D) Lenguaje de máquina.
+Respuesta: B) Lenguaje natural.
+
+¿Qué tan grande es ChatGPT en términos de parámetros?
+A) 50 millones.
+B) 100 millones.
+C) 175 millones.
+D) 350 millones.
+Respuesta: D) 350 millones.
+
+¿Qué es lo que hace a ChatGPT especial?
+A) Su capacidad para imitar el comportamiento humano.
+B) Su capacidad para realizar cálculos matemáticos complejos.
+C) Su capacidad para procesar imágenes.
+D) Su capacidad para controlar dispositivos físicos.
+Respuesta: A) Su capacidad para imitar el comportamiento humano.
+
+¿En qué tipo de tareas puede ser utilizado ChatGPT?
+A) Tareas de procesamiento de imágenes.
+B) Tareas de procesamiento de audio.
+C) Tareas de procesamiento de texto.
+D) Tareas de procesamiento de video.
+Respuesta: C) Tareas de procesamiento de texto.
+
+¿Cuál es uno de los principales desafíos que enfrenta ChatGPT?
+A) La falta de capacidad para procesar imágenes.
+B) La limitación de su capacidad de procesamiento.
+C) La falta de capacidad para procesar audio.
+D) La incapacidad para aprender de forma autónoma.
+Respuesta: B) La limitación de su capacidad de procesamiento.
