@@ -1,0 +1,8 @@
+D:\POO C#\Tareas\Tarea7\POO_Tarea7_Ejemplo_5\Ejemplo_5\bin\Debug\Ejemplo_5.exe.config
+D:\POO C#\Tareas\Tarea7\POO_Tarea7_Ejemplo_5\Ejemplo_5\bin\Debug\Ejemplo_5.exe
+D:\POO C#\Tareas\Tarea7\POO_Tarea7_Ejemplo_5\Ejemplo_5\bin\Debug\Ejemplo_5.pdb
+D:\POO C#\Tareas\Tarea7\POO_Tarea7_Ejemplo_5\Ejemplo_5\obj\Debug\Ejemplo_5.csproj.AssemblyReference.cache
+D:\POO C#\Tareas\Tarea7\POO_Tarea7_Ejemplo_5\Ejemplo_5\obj\Debug\Ejemplo_5.csproj.SuggestedBindingRedirects.cache
+D:\POO C#\Tareas\Tarea7\POO_Tarea7_Ejemplo_5\Ejemplo_5\obj\Debug\Ejemplo_5.csproj.CoreCompileInputs.cache
+D:\POO C#\Tareas\Tarea7\POO_Tarea7_Ejemplo_5\Ejemplo_5\obj\Debug\Ejemplo_5.exe
+D:\POO C#\Tareas\Tarea7\POO_Tarea7_Ejemplo_5\Ejemplo_5\obj\Debug\Ejemplo_5.pdb

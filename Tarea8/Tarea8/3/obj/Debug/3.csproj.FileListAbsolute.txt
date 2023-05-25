@@ -1,0 +1,8 @@
+D:\POO C#\Tareas\Tarea8\3\bin\Debug\3.exe.config
+D:\POO C#\Tareas\Tarea8\3\bin\Debug\3.exe
+D:\POO C#\Tareas\Tarea8\3\bin\Debug\3.pdb
+D:\POO C#\Tareas\Tarea8\3\obj\Debug\3.csproj.AssemblyReference.cache
+D:\POO C#\Tareas\Tarea8\3\obj\Debug\3.csproj.SuggestedBindingRedirects.cache
+D:\POO C#\Tareas\Tarea8\3\obj\Debug\3.csproj.CoreCompileInputs.cache
+D:\POO C#\Tareas\Tarea8\3\obj\Debug\3.exe
+D:\POO C#\Tareas\Tarea8\3\obj\Debug\3.pdb

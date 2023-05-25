@@ -1,0 +1,8 @@
+D:\POO C#\Tareas\Tarea8\Tarea8_JoseCamposChaves\bin\Debug\Tarea8_JoseCamposChaves.exe.config
+D:\POO C#\Tareas\Tarea8\Tarea8_JoseCamposChaves\bin\Debug\Tarea8_JoseCamposChaves.exe
+D:\POO C#\Tareas\Tarea8\Tarea8_JoseCamposChaves\bin\Debug\Tarea8_JoseCamposChaves.pdb
+D:\POO C#\Tareas\Tarea8\Tarea8_JoseCamposChaves\obj\Debug\Tarea8_JoseCamposChaves.csproj.AssemblyReference.cache
+D:\POO C#\Tareas\Tarea8\Tarea8_JoseCamposChaves\obj\Debug\Tarea8_JoseCamposChaves.csproj.SuggestedBindingRedirects.cache
+D:\POO C#\Tareas\Tarea8\Tarea8_JoseCamposChaves\obj\Debug\Tarea8_JoseCamposChaves.csproj.CoreCompileInputs.cache
+D:\POO C#\Tareas\Tarea8\Tarea8_JoseCamposChaves\obj\Debug\Tarea8_JoseCamposChaves.exe
+D:\POO C#\Tareas\Tarea8\Tarea8_JoseCamposChaves\obj\Debug\Tarea8_JoseCamposChaves.pdb
