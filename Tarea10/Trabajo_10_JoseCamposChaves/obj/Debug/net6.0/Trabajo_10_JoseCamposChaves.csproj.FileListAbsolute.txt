@@ -1,0 +1,15 @@
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\bin\Debug\net6.0\Trabajo_10_JoseCamposChaves.exe
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\bin\Debug\net6.0\Trabajo_10_JoseCamposChaves.deps.json
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\bin\Debug\net6.0\Trabajo_10_JoseCamposChaves.runtimeconfig.json
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\bin\Debug\net6.0\Trabajo_10_JoseCamposChaves.dll
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\bin\Debug\net6.0\Trabajo_10_JoseCamposChaves.pdb
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\obj\Debug\net6.0\Trabajo_10_JoseCamposChaves.csproj.AssemblyReference.cache
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\obj\Debug\net6.0\Trabajo_10_JoseCamposChaves.GeneratedMSBuildEditorConfig.editorconfig
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\obj\Debug\net6.0\Trabajo_10_JoseCamposChaves.AssemblyInfoInputs.cache
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\obj\Debug\net6.0\Trabajo_10_JoseCamposChaves.AssemblyInfo.cs
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\obj\Debug\net6.0\Trabajo_10_JoseCamposChaves.csproj.CoreCompileInputs.cache
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\obj\Debug\net6.0\Trabajo_10_JoseCamposChaves.dll
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\obj\Debug\net6.0\refint\Trabajo_10_JoseCamposChaves.dll
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\obj\Debug\net6.0\Trabajo_10_JoseCamposChaves.pdb
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\obj\Debug\net6.0\Trabajo_10_JoseCamposChaves.genruntimeconfig.cache
+D:\POO C#\Tareas\Tarea10\Trabajo_10_JoseCamposChaves\obj\Debug\net6.0\ref\Trabajo_10_JoseCamposChaves.dll

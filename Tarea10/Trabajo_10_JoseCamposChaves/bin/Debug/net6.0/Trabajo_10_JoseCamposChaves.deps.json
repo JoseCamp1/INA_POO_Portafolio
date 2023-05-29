@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Trabajo_10_JoseCamposChaves/1.0.0": {
+        "runtime": {
+          "Trabajo_10_JoseCamposChaves.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Trabajo_10_JoseCamposChaves/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
