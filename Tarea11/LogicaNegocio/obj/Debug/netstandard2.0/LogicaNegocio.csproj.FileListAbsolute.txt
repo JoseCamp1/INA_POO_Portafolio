@@ -1,0 +1,10 @@
+D:\POO C#\Tareas\Tarea11\LogicaNegocio\bin\Debug\netstandard2.0\LogicaNegocio.deps.json
+D:\POO C#\Tareas\Tarea11\LogicaNegocio\bin\Debug\netstandard2.0\LogicaNegocio.dll
+D:\POO C#\Tareas\Tarea11\LogicaNegocio\bin\Debug\netstandard2.0\LogicaNegocio.pdb
+D:\POO C#\Tareas\Tarea11\LogicaNegocio\obj\Debug\netstandard2.0\LogicaNegocio.csproj.AssemblyReference.cache
+D:\POO C#\Tareas\Tarea11\LogicaNegocio\obj\Debug\netstandard2.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\POO C#\Tareas\Tarea11\LogicaNegocio\obj\Debug\netstandard2.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\POO C#\Tareas\Tarea11\LogicaNegocio\obj\Debug\netstandard2.0\LogicaNegocio.AssemblyInfo.cs
+D:\POO C#\Tareas\Tarea11\LogicaNegocio\obj\Debug\netstandard2.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\POO C#\Tareas\Tarea11\LogicaNegocio\obj\Debug\netstandard2.0\LogicaNegocio.dll
+D:\POO C#\Tareas\Tarea11\LogicaNegocio\obj\Debug\netstandard2.0\LogicaNegocio.pdb
