@@ -12,13 +12,12 @@ namespace Trabajo_10_JoseCamposChaves
         private static int contador = 0;
 
         //atributos
-        public int _idTour;
-        public string _Destino;
-        public decimal _Precio;
-        public DateTime _FechaSalida;
-        public DateTime _FechaRegreso;
-        public string _Descripcion;
-
+        private int _idTour;
+        private string _Destino;
+        private decimal _Precio;
+        private DateTime _FechaSalida;
+        private DateTime _FechaRegreso;
+        private string _Descripcion;        
         //metodos
 
         //constructores
@@ -30,10 +29,8 @@ namespace Trabajo_10_JoseCamposChaves
             _FechaSalida = fechaSalida;
             _FechaRegreso = fechaRegreso;
             _Descripcion = descripcion;
-
             contador++;
         }
-
 
         public TourVacaciones()
         {
@@ -43,7 +40,6 @@ namespace Trabajo_10_JoseCamposChaves
             _FechaSalida = DateTime.MinValue;
             _FechaRegreso = DateTime.MinValue;
             _Descripcion = string.Empty;
-
             contador++;
         }
 

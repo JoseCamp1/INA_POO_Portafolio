@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ProyectoEscritorio/1.0.0": {
+        "dependencies": {
+          "LógicaNegocio": "1.0.0"
+        },
+        "runtime": {
+          "ProyectoEscritorio.dll": {}
+        }
+      },
+      "LógicaNegocio/1.0.0": {
+        "runtime": {
+          "LógicaNegocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProyectoEscritorio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LógicaNegocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
