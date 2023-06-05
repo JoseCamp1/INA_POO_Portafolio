@@ -18,21 +18,20 @@ namespace ProyectoEscritorio
             InitializeComponent();
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        public void btnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void LimpiarResultadoPromedio()
+        public void LimpiarResultadoPromedio()
         {
             txtPromedio.BackColor = SystemColors.Info;
             txtPromedio.Text = string.Empty;
         }
 
-        private double CalcularSumaNotas(ListView.ListViewItemCollection notas)
+        public static double CalcularSumaNotas(ListView.ListViewItemCollection notas)
         {
             double suma = 0;
-
             foreach (ListViewItem item in notas)
             {
                 if (double.TryParse(item.Text, out double nota))
@@ -40,12 +39,10 @@ namespace ProyectoEscritorio
                     suma += nota;
                 }
             }
-
             return suma;
         }
 
-
-        private void btnAgregar_Click(object sender, EventArgs e)
+        public void btnAgregar_Click(object sender, EventArgs e)
         {
             string notaText = txtNota.Text;
 
@@ -82,7 +79,7 @@ namespace ProyectoEscritorio
             txtNota.Text = string.Empty;
         }
 
-        private void listaNotas_SelectedIndexChanged(object sender, EventArgs e)
+        public void listaNotas_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (listaNotas.SelectedItems.Count > 0)
             {
@@ -91,7 +88,7 @@ namespace ProyectoEscritorio
             }
         }
 
-        private void btnEliminarSeleccionado_Click(object sender, EventArgs e)
+        public void btnEliminarSeleccionado_Click(object sender, EventArgs e)
         {
             if (listaNotas.SelectedItems.Count > 0)
             {
@@ -108,7 +105,7 @@ namespace ProyectoEscritorio
             }
         }
 
-        private void btnLimpiarListadeNotas_Click(object sender, EventArgs e)
+        public void btnLimpiarListadeNotas_Click(object sender, EventArgs e)
         {
             listaNotas.Items.Clear(); // Limpia la lista de notas
             txtNotaSeleccionada.Text = string.Empty; // Limpia el cuadro de texto de la nota seleccionada
@@ -116,7 +113,7 @@ namespace ProyectoEscritorio
             LimpiarResultadoPromedio(); // Llama al procedimiento que limpia los datos del promedio
         }
 
-        private void btnVerResultado_Click(object sender, EventArgs e)
+        public void btnVerResultado_Click(object sender, EventArgs e)
         {
             // Comprueba si no hay notas en la lista
             if (listaNotas.Items.Count == 0)
