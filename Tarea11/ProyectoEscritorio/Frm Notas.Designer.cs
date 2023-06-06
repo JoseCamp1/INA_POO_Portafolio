@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Notas));
             registrosNotas = new System.Windows.Forms.GroupBox();
-            txtPromedio = new System.Windows.Forms.TextBox();
+            txtPromedio = new System.Windows.Forms.Label();
             listaNotas = new System.Windows.Forms.ListView();
             label3 = new System.Windows.Forms.Label();
             btnVerResultado = new System.Windows.Forms.Button();
@@ -48,6 +48,7 @@
             // registrosNotas
             // 
             registrosNotas.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            registrosNotas.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             registrosNotas.Controls.Add(txtPromedio);
             registrosNotas.Controls.Add(listaNotas);
             registrosNotas.Controls.Add(label3);
@@ -70,12 +71,10 @@
             // 
             // txtPromedio
             // 
-            txtPromedio.BackColor = System.Drawing.SystemColors.Window;
-            txtPromedio.Location = new System.Drawing.Point(8, 334);
-            txtPromedio.Multiline = true;
+            txtPromedio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            txtPromedio.Location = new System.Drawing.Point(7, 335);
             txtPromedio.Name = "txtPromedio";
-            txtPromedio.ReadOnly = true;
-            txtPromedio.Size = new System.Drawing.Size(307, 86);
+            txtPromedio.Size = new System.Drawing.Size(307, 85);
             txtPromedio.TabIndex = 11;
             txtPromedio.UseWaitCursor = true;
             // 
@@ -229,6 +228,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.ListView listaNotas;
-        private System.Windows.Forms.TextBox txtPromedio;
+        private System.Windows.Forms.Label txtPromedio;
     }
 }
