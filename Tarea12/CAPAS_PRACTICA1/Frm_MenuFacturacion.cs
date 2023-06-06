@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Capa_LogicaNegocio_02;
+using Capa_Entidades;
 
 namespace Capa_Presentacion_01
 {
