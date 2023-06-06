@@ -17,3 +17,12 @@ D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\bin\Debug\netcoreapp3.1\Capa_Presentaci
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.dll
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.pdb
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.genruntimeconfig.cache
+D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\bin\Debug\netcoreapp3.1\Capa_Presentacion_01.dll.config
+D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\bin\Debug\netcoreapp3.1\Capa_AccesoDatos_03.dll
+D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\bin\Debug\netcoreapp3.1\Capa_Entidades.dll
+D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\bin\Debug\netcoreapp3.1\Capa_LogicaNegocio_02.dll
+D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\bin\Debug\netcoreapp3.1\Capa_Entidades.pdb
+D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\bin\Debug\netcoreapp3.1\Capa_LogicaNegocio_02.pdb
+D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\bin\Debug\netcoreapp3.1\Capa_AccesoDatos_03.pdb
+D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.csproj.CopyComplete
+D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.Frm_MenuDetalleFactura.resources

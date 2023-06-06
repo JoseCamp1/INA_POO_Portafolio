@@ -22,5 +22,15 @@ namespace Capa_Presentacion_01.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=JOSEPC\\SQLEXPRESS;Initial Catalog=CAPAS_PRACTICA1;Integrated Security" +
+            "=True")]
+        public string ConnectionString {
+            get {
+                return ((string)(this["ConnectionString"]));
+            }
+        }
     }
 }

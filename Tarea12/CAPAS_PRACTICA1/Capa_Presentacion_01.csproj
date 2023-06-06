@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Capa_Entidades\Capa_Entidades.csproj" />
+    <ProjectReference Include="..\Capa_LogicaNegocio_02\Capa_LogicaNegocio_02.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Settings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>

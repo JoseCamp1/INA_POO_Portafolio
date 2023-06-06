@@ -8,3 +8,6 @@ D:\POO C#\Tareas\Tarea12\Capa_AccesoDatos_03\obj\Debug\netstandard2.0\Capa_Acces
 D:\POO C#\Tareas\Tarea12\Capa_AccesoDatos_03\obj\Debug\netstandard2.0\Capa_AccesoDatos_03.csproj.CoreCompileInputs.cache
 D:\POO C#\Tareas\Tarea12\Capa_AccesoDatos_03\obj\Debug\netstandard2.0\Capa_AccesoDatos_03.dll
 D:\POO C#\Tareas\Tarea12\Capa_AccesoDatos_03\obj\Debug\netstandard2.0\Capa_AccesoDatos_03.pdb
+D:\POO C#\Tareas\Tarea12\Capa_AccesoDatos_03\bin\Debug\netstandard2.0\Capa_Entidades.dll
+D:\POO C#\Tareas\Tarea12\Capa_AccesoDatos_03\bin\Debug\netstandard2.0\Capa_Entidades.pdb
+D:\POO C#\Tareas\Tarea12\Capa_AccesoDatos_03\obj\Debug\netstandard2.0\Capa_AccesoDatos_03.csproj.CopyComplete
