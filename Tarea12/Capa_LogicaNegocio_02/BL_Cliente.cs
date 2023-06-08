@@ -6,32 +6,39 @@ using Capa_Entidades;
 
 namespace Capa_LogicaNegocio_02
 {
-    internal class BL_Cliente
+    public class BL_Cliente
     {
-        private int _id_Cliente;
-        private string _nombre;
-        private string _telefono;
-        private string _direccion;
+        //atributos
+        private string _cadenaConexion;
+        private string _mensaje;
 
-        public BL_Cliente()
+        //propiedades
+        public string Mensaje
         {
-            Id_Cliente = 0;
-            Nombre = string.Empty;
-            Telefono = string.Empty;
-            Direccion = string.Empty;
+            get => _mensaje;
         }
 
-        public BL_Cliente(int id_cliente, string nombre, string telefono, string direccion)
+        // constructor
+        public BL_Cliente(string cadenaConexion)
         {
-            this.Id_Cliente = id_cliente;
-            this.Nombre = nombre;
-            this.Telefono = telefono;
-            this.Direccion = direccion;
+            _cadenaConexion = cadenaConexion;
+            _mensaje = string.Empty;
         }
 
-        public int Id_Cliente { get => _id_Cliente; set => _id_Cliente = value; }
-        public string Nombre { get => _nombre; set => _nombre = value; }
-        public string Telefono { get => _telefono; set => _telefono = value; }
-        public string Direccion { get => _direccion; set => _direccion = value; }
+        //metodo para llamar al metodo insertar de la capa3accesodatos
+        public int InsertarCliente(Entidad_Clientes cliente)
+        {
+            int id_cliente = 0;
+            DA_Clientes accesoDatos = new DA_Clientes(_cadenaConexion);
+            try
+            {
+                id_cliente = accesoDatos.InsertarCliente(cliente);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return id_cliente;
+        }// fin de la clase insertar
     }
 }

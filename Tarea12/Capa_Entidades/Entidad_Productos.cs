@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Capa_Entidades
 {
-    internal class entidad_Productos
+    public class Entidad_Productos
     {
         private int _id_Producto;
         private string _descripcion;
@@ -18,7 +18,7 @@ namespace Capa_Entidades
         public decimal Precio_Venta { get => _precio_Venta; set => _precio_Venta = value; }
         public string Gravado { get => _gravado; set => _gravado = value; }
 
-        public entidad_Productos()
+        public Entidad_Productos()
         {
             _id_Producto = 0;
             _descripcion=string.Empty;
@@ -27,7 +27,7 @@ namespace Capa_Entidades
             _gravado=string.Empty;
         }
 
-        public entidad_Productos(int id_Producto,string descripcion,decimal precio_Compra,decimal precio_Venta, string gravado)
+        public Entidad_Productos(int id_Producto,string descripcion,decimal precio_Compra,decimal precio_Venta, string gravado)
         {
             this._id_Producto=id_Producto;
             this._descripcion=descripcion;

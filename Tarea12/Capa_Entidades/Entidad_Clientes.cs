@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Capa_Entidades
 {
-    internal class entidad_Clientes
+    public class Entidad_Clientes
     {
         private int _id_Cliente;
         private string _nombre;
         private string _telefono;
         private string _direccion;
 
-        public entidad_Clientes() 
+        public Entidad_Clientes() 
         {
             Id_Cliente = 0;
             Nombre = string.Empty;
@@ -19,7 +19,7 @@ namespace Capa_Entidades
             Direccion = string.Empty;
         }
 
-        public entidad_Clientes(int id_cliente,string nombre,string telefono,string direccion)
+        public Entidad_Clientes(int id_cliente,string nombre,string telefono,string direccion)
         {
             this.Id_Cliente = id_cliente;
             this.Nombre = nombre;
