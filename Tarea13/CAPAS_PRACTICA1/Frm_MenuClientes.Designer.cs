@@ -107,6 +107,7 @@
             btnGuardar.Text = "&Guardar";
             btnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // btnEliminar
             // 
@@ -131,6 +132,7 @@
             btnSalir.Text = "&Salir";
             btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
             // btnNuevo
             // 
@@ -143,6 +145,7 @@
             btnNuevo.Text = "&Nuevo";
             btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             btnNuevo.UseVisualStyleBackColor = true;
+            btnNuevo.Click += btnNuevo_Click;
             // 
             // label1
             // 
@@ -190,7 +193,6 @@
             // 
             // txtNombre
             // 
-            txtNombre.Enabled = false;
             txtNombre.Location = new System.Drawing.Point(198, 62);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new System.Drawing.Size(100, 23);
@@ -198,7 +200,6 @@
             // 
             // txtTelefono
             // 
-            txtTelefono.Enabled = false;
             txtTelefono.Location = new System.Drawing.Point(310, 62);
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new System.Drawing.Size(100, 23);
@@ -206,7 +207,6 @@
             // 
             // txtDireccion
             // 
-            txtDireccion.Enabled = false;
             txtDireccion.Location = new System.Drawing.Point(429, 62);
             txtDireccion.Name = "txtDireccion";
             txtDireccion.Size = new System.Drawing.Size(100, 23);

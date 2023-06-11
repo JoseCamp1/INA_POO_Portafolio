@@ -35,10 +35,10 @@
             PRECIO_COMPRA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             PRECIO_VENTA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             GRAVADO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            btnNuevo2 = new System.Windows.Forms.Button();
-            btnEliminar2 = new System.Windows.Forms.Button();
-            btnGuardar2 = new System.Windows.Forms.Button();
-            btnBuscar2 = new System.Windows.Forms.Button();
+            btnNuevo = new System.Windows.Forms.Button();
+            btnEliminar = new System.Windows.Forms.Button();
+            btnGuardar = new System.Windows.Forms.Button();
+            btnBuscar = new System.Windows.Forms.Button();
             btnSalir = new System.Windows.Forms.Button();
             txtPrecioVenta = new System.Windows.Forms.TextBox();
             txtPrecioCompra = new System.Windows.Forms.TextBox();
@@ -93,53 +93,55 @@
             GRAVADO.HeaderText = "Gravado";
             GRAVADO.Name = "GRAVADO";
             // 
-            // btnNuevo2
+            // btnNuevo
             // 
-            btnNuevo2.Image = (System.Drawing.Image)resources.GetObject("btnNuevo2.Image");
-            btnNuevo2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnNuevo2.Location = new System.Drawing.Point(142, 336);
-            btnNuevo2.Name = "btnNuevo2";
-            btnNuevo2.Size = new System.Drawing.Size(75, 60);
-            btnNuevo2.TabIndex = 36;
-            btnNuevo2.Text = "&Nuevo";
-            btnNuevo2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnNuevo2.UseVisualStyleBackColor = true;
+            btnNuevo.Image = (System.Drawing.Image)resources.GetObject("btnNuevo.Image");
+            btnNuevo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            btnNuevo.Location = new System.Drawing.Point(142, 336);
+            btnNuevo.Name = "btnNuevo";
+            btnNuevo.Size = new System.Drawing.Size(75, 60);
+            btnNuevo.TabIndex = 36;
+            btnNuevo.Text = "&Nuevo";
+            btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            btnNuevo.UseVisualStyleBackColor = true;
+            btnNuevo.Click += btnNuevo_Click;
             // 
-            // btnEliminar2
+            // btnEliminar
             // 
-            btnEliminar2.Image = (System.Drawing.Image)resources.GetObject("btnEliminar2.Image");
-            btnEliminar2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnEliminar2.Location = new System.Drawing.Point(364, 336);
-            btnEliminar2.Name = "btnEliminar2";
-            btnEliminar2.Size = new System.Drawing.Size(75, 60);
-            btnEliminar2.TabIndex = 35;
-            btnEliminar2.Text = "&Eliminar";
-            btnEliminar2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnEliminar2.UseVisualStyleBackColor = true;
+            btnEliminar.Image = (System.Drawing.Image)resources.GetObject("btnEliminar.Image");
+            btnEliminar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            btnEliminar.Location = new System.Drawing.Point(364, 336);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new System.Drawing.Size(75, 60);
+            btnEliminar.TabIndex = 35;
+            btnEliminar.Text = "&Eliminar";
+            btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // btnGuardar2
+            // btnGuardar
             // 
-            btnGuardar2.Image = Properties.Resources.save_48;
-            btnGuardar2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnGuardar2.Location = new System.Drawing.Point(245, 336);
-            btnGuardar2.Name = "btnGuardar2";
-            btnGuardar2.Size = new System.Drawing.Size(75, 60);
-            btnGuardar2.TabIndex = 34;
-            btnGuardar2.Text = "&Guardar";
-            btnGuardar2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnGuardar2.UseVisualStyleBackColor = true;
+            btnGuardar.Image = Properties.Resources.save_48;
+            btnGuardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            btnGuardar.Location = new System.Drawing.Point(245, 336);
+            btnGuardar.Name = "btnGuardar";
+            btnGuardar.Size = new System.Drawing.Size(75, 60);
+            btnGuardar.TabIndex = 34;
+            btnGuardar.Text = "&Guardar";
+            btnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += btnGuardar_Click_1;
             // 
-            // btnBuscar2
+            // btnBuscar
             // 
-            btnBuscar2.Image = Properties.Resources.Search_48x48;
-            btnBuscar2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnBuscar2.Location = new System.Drawing.Point(13, 336);
-            btnBuscar2.Name = "btnBuscar2";
-            btnBuscar2.Size = new System.Drawing.Size(75, 60);
-            btnBuscar2.TabIndex = 33;
-            btnBuscar2.Text = "&Buscar";
-            btnBuscar2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnBuscar2.UseVisualStyleBackColor = true;
+            btnBuscar.Image = Properties.Resources.Search_48x48;
+            btnBuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            btnBuscar.Location = new System.Drawing.Point(13, 336);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new System.Drawing.Size(75, 60);
+            btnBuscar.TabIndex = 33;
+            btnBuscar.Text = "&Buscar";
+            btnBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            btnBuscar.UseVisualStyleBackColor = true;
             // 
             // btnSalir
             // 
@@ -152,10 +154,10 @@
             btnSalir.Text = "&Salir";
             btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
             // txtPrecioVenta
             // 
-            txtPrecioVenta.Enabled = false;
             txtPrecioVenta.Location = new System.Drawing.Point(364, 57);
             txtPrecioVenta.Name = "txtPrecioVenta";
             txtPrecioVenta.Size = new System.Drawing.Size(100, 23);
@@ -163,7 +165,6 @@
             // 
             // txtPrecioCompra
             // 
-            txtPrecioCompra.Enabled = false;
             txtPrecioCompra.Location = new System.Drawing.Point(245, 57);
             txtPrecioCompra.Name = "txtPrecioCompra";
             txtPrecioCompra.Size = new System.Drawing.Size(100, 23);
@@ -171,7 +172,6 @@
             // 
             // txtDescripcion
             // 
-            txtDescripcion.Enabled = false;
             txtDescripcion.Location = new System.Drawing.Point(133, 57);
             txtDescripcion.Name = "txtDescripcion";
             txtDescripcion.Size = new System.Drawing.Size(100, 23);
@@ -223,7 +223,6 @@
             // 
             // txtGravado
             // 
-            txtGravado.Enabled = false;
             txtGravado.Location = new System.Drawing.Point(471, 57);
             txtGravado.Name = "txtGravado";
             txtGravado.Size = new System.Drawing.Size(100, 23);
@@ -253,10 +252,10 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(btnNuevo2);
-            Controls.Add(btnEliminar2);
-            Controls.Add(btnGuardar2);
-            Controls.Add(btnBuscar2);
+            Controls.Add(btnNuevo);
+            Controls.Add(btnEliminar);
+            Controls.Add(btnGuardar);
+            Controls.Add(btnBuscar);
             Controls.Add(btnSalir);
             Controls.Add(dataGridView1);
             Name = "Frm_MenuProductos";
@@ -274,10 +273,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn PRECIO_COMPRA;
         private System.Windows.Forms.DataGridViewTextBoxColumn PRECIO_VENTA;
         private System.Windows.Forms.DataGridViewTextBoxColumn GRAVADO;
-        private System.Windows.Forms.Button btnNuevo2;
-        private System.Windows.Forms.Button btnEliminar2;
-        private System.Windows.Forms.Button btnGuardar2;
-        private System.Windows.Forms.Button btnBuscar2;
+        private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.TextBox txtPrecioVenta;
         private System.Windows.Forms.TextBox txtPrecioCompra;

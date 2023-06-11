@@ -38,6 +38,18 @@ ID_PRODUCTO INT NOT NULL FOREIGN KEY REFERENCES PRODUCTOS(ID_PRODUCTO),
 CANTIDAD INT
 )
 
+INSERT INTO CLIENTES (NOMBRE, TELEFONO, DIRECCION)
+VALUES 
+    ('Juan', '11111111', 'Calle Principal, 123'),
+    ('María', '22222222', 'Avenida Central, 456'),
+    ('Pedro', '33333333', 'Plaza Mayor, 789'),
+    ('Ana', '44444444', 'Calle del Sol, 234'),
+    ('Luisa', '55555555', 'Avenida Libertad, 567'),
+    ('Carlos', '66666666', 'Calle del Carmen, 890'),
+    ('Laura', '77777777', 'Paseo de la Victoria, 1234'),
+    ('Miguel', '88888888', 'Avenida del Parque, 5678'),
+    ('Sofía', '99999999', 'Calle Real, 9012'),
+    ('Javier', '10101010', 'Carrera del Norte, 3456');
 
 SELECT * FROM PRODUCTOS;
 SELECT * FROM CLIENTES;

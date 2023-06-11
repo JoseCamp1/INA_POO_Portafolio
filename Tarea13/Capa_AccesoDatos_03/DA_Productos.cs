@@ -1,40 +1,61 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Text;
 using Capa_Entidades;
 
 namespace Capa_AccesoDatos_03
 {
-    internal class DA_Productos
+    public class DA_Productos
     {
-        private int _id_Producto;
-        private string _descripcion;
-        private decimal _precio_Compra;
-        private decimal _precio_Venta;
-        private string _gravado;
+        //Atributos
+        private string _cadenaConexion;
+        private string _mensaje;
 
-        public int Id_Producto { get => _id_Producto; set => _id_Producto = value; }
-        public string Descripcion { get => _descripcion; set => _descripcion = value; }
-        public decimal Precio_Compra { get => _precio_Compra; set => _precio_Compra = value; }
-        public decimal Precio_Venta { get => _precio_Venta; set => _precio_Venta = value; }
-        public string Gravado { get => _gravado; set => _gravado = value; }
+        //Propiedades
+        public string Mensaje { get => _mensaje; }
 
-        public DA_Productos()
+        //Constructor
+        public DA_Productos(string cadenaConexion)
         {
-            _id_Producto = 0;
-            _descripcion = string.Empty;
-            _precio_Compra = decimal.MinValue;
-            _precio_Venta = decimal.MinValue;
-            _gravado = string.Empty;
+            _cadenaConexion = cadenaConexion;
+            _mensaje = string.Empty;
         }
 
-        public DA_Productos(int id_Producto, string descripcion, decimal precio_Compra, decimal precio_Venta, string gravado)
+        //Metodos
+        public int InsertarProducto(Entidad_Productos producto)
         {
-            this._id_Producto = id_Producto;
-            this._descripcion = descripcion;
-            this.Precio_Compra = _precio_Compra;
-            this.Precio_Venta = _precio_Venta;
-            this.Gravado = gravado;
+            int id = 0;
+            //Establecer el objeto conexion
+            SqlConnection cnx = new SqlConnection(_cadenaConexion);
+            //Establecer los comandos sQL
+            SqlCommand comando = new SqlCommand();
+            comando.Connection = cnx;
+            string instruccion = "INSERT INTO PRODUCTOS (DESCRIPCION, PRECIOCOMPRA, PRECIOVENTA, GRAVADO) " +
+                "VALUES (@DESCRIPCION, @PRECIOCOMPRA, @PRECIOVENTA, @GRAVADO); SELECT SCOPE_IDENTITY()";
+            comando.Parameters.AddWithValue("@DESCRIPCION", producto.Descripcion);
+            comando.Parameters.AddWithValue("@PRECIOCOMPRA", producto.Precio_Compra);
+            comando.Parameters.AddWithValue("@PRECIOVENTA", producto.Precio_Venta);
+            comando.Parameters.AddWithValue("@GRAVADO", producto.Gravado);
+            comando.CommandText = instruccion;
+
+            try
+            {
+                cnx.Open();
+                id = Convert.ToInt32(comando.ExecuteScalar());
+                cnx.Close();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                cnx.Dispose();
+                comando.Dispose();
+            }
+            return id;
         }
+
     }
 }
