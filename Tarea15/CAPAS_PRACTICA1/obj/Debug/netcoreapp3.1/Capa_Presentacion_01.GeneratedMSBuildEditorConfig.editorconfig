@@ -1,0 +1,9 @@
+is_global = true
+build_property.ApplicationManifest = 
+build_property.StartupObject = CAPAS_PRACTICA1.Program
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
+build_property.RootNamespace = Capa_Presentacion_01
+build_property.ProjectDir = D:\POO C#\Tareas\Tarea15\CAPAS_PRACTICA1\
