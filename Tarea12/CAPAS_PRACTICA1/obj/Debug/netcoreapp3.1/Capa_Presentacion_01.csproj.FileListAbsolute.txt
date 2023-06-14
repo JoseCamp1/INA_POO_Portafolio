@@ -18,6 +18,8 @@ D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\bin\Debug\netcoreapp3.1\Capa_Entidades.
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\bin\Debug\netcoreapp3.1\Capa_LogicaNegocio_02.pdb
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\bin\Debug\netcoreapp3.1\Capa_AccesoDatos_03.pdb
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.csproj.AssemblyReference.cache
+D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.Frm_BuscarCliente.resources
+D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.Frm_BuscarProductos.resources
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.Frm_MenuClientes.resources
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.Frm_MenuFacturas.resources
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.Frm_MenuPrincipal.resources
@@ -32,4 +34,3 @@ D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentaci
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.dll
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.pdb
 D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.genruntimeconfig.cache
-D:\POO C#\Tareas\Tarea12\CAPAS_PRACTICA1\obj\Debug\netcoreapp3.1\Capa_Presentacion_01.Frm_BuscarCliente.resources
