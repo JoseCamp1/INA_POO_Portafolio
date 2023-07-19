@@ -30,11 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_MenuProductos));
             grdProductos = new System.Windows.Forms.DataGridView();
-            ID_PRODUCTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            PRECIO_COMPRA = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            PRECIO_VENTA = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            GRAVADO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             btnNuevo = new System.Windows.Forms.Button();
             btnEliminar = new System.Windows.Forms.Button();
             btnGuardar = new System.Windows.Forms.Button();
@@ -50,6 +45,11 @@
             label1 = new System.Windows.Forms.Label();
             txtGravado = new System.Windows.Forms.TextBox();
             label5 = new System.Windows.Forms.Label();
+            ID_PRODUCTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            PRECIO_COMPRA = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            PRECIO_VENTA = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            GRAVADO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)grdProductos).BeginInit();
             SuspendLayout();
             // 
@@ -62,38 +62,8 @@
             grdProductos.Name = "grdProductos";
             grdProductos.RowTemplate.Height = 25;
             grdProductos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            grdProductos.Size = new System.Drawing.Size(559, 322);
+            grdProductos.Size = new System.Drawing.Size(660, 322);
             grdProductos.TabIndex = 0;
-            // 
-            // ID_PRODUCTO
-            // 
-            ID_PRODUCTO.DataPropertyName = "Id_Producto";
-            ID_PRODUCTO.HeaderText = "Producto";
-            ID_PRODUCTO.Name = "ID_PRODUCTO";
-            // 
-            // DESCRIPCION
-            // 
-            DESCRIPCION.DataPropertyName = "Descripcion";
-            DESCRIPCION.HeaderText = "Descripcion";
-            DESCRIPCION.Name = "DESCRIPCION";
-            // 
-            // PRECIO_COMPRA
-            // 
-            PRECIO_COMPRA.DataPropertyName = "Precio_Compra";
-            PRECIO_COMPRA.HeaderText = "Precio Compra";
-            PRECIO_COMPRA.Name = "PRECIO_COMPRA";
-            // 
-            // PRECIO_VENTA
-            // 
-            PRECIO_VENTA.DataPropertyName = "Precio_Venta";
-            PRECIO_VENTA.HeaderText = "Precio Venta";
-            PRECIO_VENTA.Name = "PRECIO_VENTA";
-            // 
-            // GRAVADO
-            // 
-            GRAVADO.DataPropertyName = "Gravado";
-            GRAVADO.HeaderText = "Gravado";
-            GRAVADO.Name = "GRAVADO";
             // 
             // btnNuevo
             // 
@@ -106,7 +76,6 @@
             btnNuevo.Text = "&Nuevo";
             btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             btnNuevo.UseVisualStyleBackColor = true;
-            btnNuevo.Click += btnNuevo_Click;
             // 
             // btnEliminar
             // 
@@ -119,7 +88,6 @@
             btnEliminar.Text = "&Eliminar";
             btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             btnEliminar.UseVisualStyleBackColor = true;
-            btnEliminar.Click += btnEliminar_Click;
             // 
             // btnGuardar
             // 
@@ -132,7 +100,6 @@
             btnGuardar.Text = "&Guardar";
             btnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             btnGuardar.UseVisualStyleBackColor = true;
-            btnGuardar.Click += btnGuardar_Click_1;
             // 
             // btnBuscar
             // 
@@ -145,7 +112,6 @@
             btnBuscar.Text = "&Buscar";
             btnBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             btnBuscar.UseVisualStyleBackColor = true;
-            btnBuscar.Click += btnBuscar_Click;
             // 
             // btnSalir
             // 
@@ -158,7 +124,6 @@
             btnSalir.Text = "&Salir";
             btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             btnSalir.UseVisualStyleBackColor = true;
-            btnSalir.Click += btnSalir_Click;
             // 
             // txtPrecioVenta
             // 
@@ -241,13 +206,43 @@
             label5.TabIndex = 45;
             label5.Text = "Gravando";
             // 
+            // ID_PRODUCTO
+            // 
+            ID_PRODUCTO.DataPropertyName = "Id_Producto";
+            ID_PRODUCTO.HeaderText = "Producto";
+            ID_PRODUCTO.Name = "ID_PRODUCTO";
+            // 
+            // DESCRIPCION
+            // 
+            DESCRIPCION.DataPropertyName = "Descripcion";
+            DESCRIPCION.HeaderText = "Descripcion";
+            DESCRIPCION.Name = "DESCRIPCION";
+            // 
+            // PRECIO_COMPRA
+            // 
+            PRECIO_COMPRA.DataPropertyName = "Precio_Compra";
+            PRECIO_COMPRA.HeaderText = "Precio Compra";
+            PRECIO_COMPRA.Name = "PRECIO_COMPRA";
+            // 
+            // PRECIO_VENTA
+            // 
+            PRECIO_VENTA.DataPropertyName = "Precio_Venta";
+            PRECIO_VENTA.HeaderText = "Precio Venta";
+            PRECIO_VENTA.Name = "PRECIO_VENTA";
+            // 
+            // GRAVADO
+            // 
+            GRAVADO.DataPropertyName = "Gravado";
+            GRAVADO.HeaderText = "Gravado";
+            GRAVADO.Name = "GRAVADO";
+            // 
             // Frm_MenuProductos
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._212a40d0af2ac7285fa9b8416da44795;
             BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            ClientSize = new System.Drawing.Size(618, 468);
+            ClientSize = new System.Drawing.Size(709, 468);
             Controls.Add(txtGravado);
             Controls.Add(label5);
             Controls.Add(txtPrecioVenta);
@@ -270,7 +265,6 @@
             MinimizeBox = false;
             Name = "Frm_MenuProductos";
             Text = "Frm_MenuProductos";
-            Load += Frm_MenuProductos_Load;
             ((System.ComponentModel.ISupportInitialize)grdProductos).EndInit();
             ResumeLayout(false);
             PerformLayout();

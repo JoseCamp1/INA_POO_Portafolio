@@ -35,9 +35,9 @@ namespace Capa_Presentacion_01
                 producto = new Entidad_Productos();
             }
             producto.Descripcion = txtDescripcion.Text;
-            producto.Precio_Compra = Convert.ToSingle( txtPrecioCompra.Text);
+            producto.Precio_Compra = Convert.ToSingle(txtPrecioCompra.Text);
             producto.Precio_Venta = Convert.ToSingle(txtPrecioVenta.Text);
-            producto.Gravado = txtGravado.Text;            
+            producto.Gravado = txtGravado.Text;
             return producto;
         }
 
