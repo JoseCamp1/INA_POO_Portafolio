@@ -29,230 +29,228 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_MenuClientes));
-            grdClientes = new System.Windows.Forms.DataGridView();
-            ID_CLIENTE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            NOMBRE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            TELEFONO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            DIRECCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            btnBuscar = new System.Windows.Forms.Button();
-            btnGuardar = new System.Windows.Forms.Button();
-            btnEliminar = new System.Windows.Forms.Button();
-            btnSalir = new System.Windows.Forms.Button();
-            btnNuevo = new System.Windows.Forms.Button();
-            label1 = new System.Windows.Forms.Label();
-            label2 = new System.Windows.Forms.Label();
-            label3 = new System.Windows.Forms.Label();
-            label4 = new System.Windows.Forms.Label();
-            txtCliente = new System.Windows.Forms.TextBox();
-            txtNombre = new System.Windows.Forms.TextBox();
-            txtTelefono = new System.Windows.Forms.TextBox();
-            txtDireccion = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)grdClientes).BeginInit();
-            SuspendLayout();
+            this.grdClientes = new System.Windows.Forms.DataGridView();
+            this.ID_CLIENTE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NOMBRE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TELEFONO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DIRECCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtCliente = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.grdClientes)).BeginInit();
+            this.SuspendLayout();
             // 
             // grdClientes
             // 
-            grdClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            grdClientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { ID_CLIENTE, NOMBRE, TELEFONO, DIRECCION });
-            grdClientes.Location = new System.Drawing.Point(2, 58);
-            grdClientes.Name = "grdClientes";
-            grdClientes.RowTemplate.Height = 25;
-            grdClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            grdClientes.Size = new System.Drawing.Size(712, 263);
-            grdClientes.TabIndex = 0;
-            grdClientes.DoubleClick += grdClientes_DoubleClick;
+            this.grdClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdClientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID_CLIENTE,
+            this.NOMBRE,
+            this.TELEFONO,
+            this.DIRECCION});
+            this.grdClientes.Location = new System.Drawing.Point(2, 58);
+            this.grdClientes.Name = "grdClientes";
+            this.grdClientes.RowTemplate.Height = 25;
+            this.grdClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdClientes.Size = new System.Drawing.Size(821, 263);
+            this.grdClientes.TabIndex = 0;
             // 
             // ID_CLIENTE
             // 
-            ID_CLIENTE.DataPropertyName = "ID_CLIENTE";
-            ID_CLIENTE.HeaderText = "Cliente";
-            ID_CLIENTE.Name = "ID_CLIENTE";
-            ID_CLIENTE.Width = 150;
+            this.ID_CLIENTE.DataPropertyName = "ID_CLIENTE";
+            this.ID_CLIENTE.HeaderText = "Cliente";
+            this.ID_CLIENTE.Name = "ID_CLIENTE";
+            this.ID_CLIENTE.Width = 150;
             // 
             // NOMBRE
             // 
-            NOMBRE.DataPropertyName = "NOMBRE";
-            NOMBRE.HeaderText = "Nombre";
-            NOMBRE.Name = "NOMBRE";
-            NOMBRE.Width = 150;
+            this.NOMBRE.DataPropertyName = "NOMBRE";
+            this.NOMBRE.HeaderText = "Nombre";
+            this.NOMBRE.Name = "NOMBRE";
+            this.NOMBRE.Width = 150;
             // 
             // TELEFONO
             // 
-            TELEFONO.DataPropertyName = "TELEFONO";
-            TELEFONO.HeaderText = "Telefono";
-            TELEFONO.Name = "TELEFONO";
-            TELEFONO.Width = 150;
+            this.TELEFONO.DataPropertyName = "TELEFONO";
+            this.TELEFONO.HeaderText = "Telefono";
+            this.TELEFONO.Name = "TELEFONO";
+            this.TELEFONO.Width = 150;
             // 
             // DIRECCION
             // 
-            DIRECCION.DataPropertyName = "DIRECCION";
-            DIRECCION.HeaderText = "Direccion";
-            DIRECCION.Name = "DIRECCION";
-            DIRECCION.Width = 200;
+            this.DIRECCION.DataPropertyName = "DIRECCION";
+            this.DIRECCION.HeaderText = "Direccion";
+            this.DIRECCION.Name = "DIRECCION";
+            this.DIRECCION.Width = 200;
             // 
             // btnBuscar
             // 
-            btnBuscar.Image = (System.Drawing.Image)resources.GetObject("btnBuscar.Image");
-            btnBuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnBuscar.Location = new System.Drawing.Point(111, 327);
-            btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new System.Drawing.Size(75, 70);
-            btnBuscar.TabIndex = 1;
-            btnBuscar.Text = "&Buscar";
-            btnBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnBuscar.UseVisualStyleBackColor = true;
-            btnBuscar.Click += btnBuscar_Click;
+            this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
+            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnBuscar.Location = new System.Drawing.Point(111, 327);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(75, 70);
+            this.btnBuscar.TabIndex = 1;
+            this.btnBuscar.Text = "&Buscar";
+            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBuscar.UseVisualStyleBackColor = true;
             // 
             // btnGuardar
             // 
-            btnGuardar.Image = Properties.Resources._1904659_arrow_backup_down_download_save_storage_transfer_122509;
-            btnGuardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnGuardar.Location = new System.Drawing.Point(303, 327);
-            btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new System.Drawing.Size(75, 70);
-            btnGuardar.TabIndex = 2;
-            btnGuardar.Text = "&Guardar";
-            btnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnGuardar.UseVisualStyleBackColor = true;
-            btnGuardar.Click += btnGuardar_Click;
+            this.btnGuardar.Image = global::Capa_Presentacion_01.Properties.Resources._1904659_arrow_backup_down_download_save_storage_transfer_122509;
+            this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnGuardar.Location = new System.Drawing.Point(303, 327);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(75, 70);
+            this.btnGuardar.TabIndex = 2;
+            this.btnGuardar.Text = "&Guardar";
+            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnGuardar.UseVisualStyleBackColor = true;
             // 
             // btnEliminar
             // 
-            btnEliminar.Image = Properties.Resources._1487086345_cross_81577;
-            btnEliminar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnEliminar.Location = new System.Drawing.Point(394, 327);
-            btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new System.Drawing.Size(75, 70);
-            btnEliminar.TabIndex = 3;
-            btnEliminar.Text = "&Eliminar";
-            btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnEliminar.UseVisualStyleBackColor = true;
-            btnEliminar.Click += btnEliminar_Click;
+            this.btnEliminar.Image = global::Capa_Presentacion_01.Properties.Resources._1487086345_cross_81577;
+            this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnEliminar.Location = new System.Drawing.Point(394, 327);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 70);
+            this.btnEliminar.TabIndex = 3;
+            this.btnEliminar.Text = "&Eliminar";
+            this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // btnSalir
             // 
-            btnSalir.BackColor = System.Drawing.SystemColors.Control;
-            btnSalir.Image = Properties.Resources._4115235_exit_logout_sign_out_114030;
-            btnSalir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnSalir.Location = new System.Drawing.Point(487, 327);
-            btnSalir.Name = "btnSalir";
-            btnSalir.Size = new System.Drawing.Size(75, 70);
-            btnSalir.TabIndex = 4;
-            btnSalir.Text = "&Salir";
-            btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnSalir.UseVisualStyleBackColor = false;
-            btnSalir.Click += btnSalir_Click;
+            this.btnSalir.BackColor = System.Drawing.SystemColors.Control;
+            this.btnSalir.Image = global::Capa_Presentacion_01.Properties.Resources._4115235_exit_logout_sign_out_114030;
+            this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSalir.Location = new System.Drawing.Point(487, 327);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 70);
+            this.btnSalir.TabIndex = 4;
+            this.btnSalir.Text = "&Salir";
+            this.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSalir.UseVisualStyleBackColor = false;
             // 
             // btnNuevo
             // 
-            btnNuevo.Image = Properties.Resources._1490129329_rounded38_82203;
-            btnNuevo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnNuevo.Location = new System.Drawing.Point(207, 327);
-            btnNuevo.Name = "btnNuevo";
-            btnNuevo.Size = new System.Drawing.Size(75, 70);
-            btnNuevo.TabIndex = 5;
-            btnNuevo.Text = "&Nuevo";
-            btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnNuevo.UseVisualStyleBackColor = true;
-            btnNuevo.Click += btnNuevo_Click;
+            this.btnNuevo.Image = global::Capa_Presentacion_01.Properties.Resources._1490129329_rounded38_82203;
+            this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnNuevo.Location = new System.Drawing.Point(207, 327);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(75, 70);
+            this.btnNuevo.TabIndex = 5;
+            this.btnNuevo.Text = "&Nuevo";
+            this.btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNuevo.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(111, 11);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(58, 15);
-            label1.TabIndex = 6;
-            label1.Text = "ID Cliente";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(111, 11);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 15);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "ID Cliente";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(231, 11);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(51, 15);
-            label2.TabIndex = 7;
-            label2.Text = "Nombre";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(231, 11);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 15);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Nombre";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new System.Drawing.Point(343, 11);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(52, 15);
-            label3.TabIndex = 8;
-            label3.Text = "Telefono";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(343, 11);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(52, 15);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Telefono";
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.Location = new System.Drawing.Point(462, 11);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(57, 15);
-            label4.TabIndex = 9;
-            label4.Text = "Direccion";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(462, 11);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(57, 15);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Direccion";
             // 
             // txtCliente
             // 
-            txtCliente.Enabled = false;
-            txtCliente.Location = new System.Drawing.Point(111, 29);
-            txtCliente.Name = "txtCliente";
-            txtCliente.Size = new System.Drawing.Size(100, 23);
-            txtCliente.TabIndex = 10;
+            this.txtCliente.Enabled = false;
+            this.txtCliente.Location = new System.Drawing.Point(111, 29);
+            this.txtCliente.Name = "txtCliente";
+            this.txtCliente.Size = new System.Drawing.Size(100, 23);
+            this.txtCliente.TabIndex = 10;
             // 
             // txtNombre
             // 
-            txtNombre.Location = new System.Drawing.Point(231, 29);
-            txtNombre.Name = "txtNombre";
-            txtNombre.Size = new System.Drawing.Size(100, 23);
-            txtNombre.TabIndex = 11;
+            this.txtNombre.Location = new System.Drawing.Point(231, 29);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(100, 23);
+            this.txtNombre.TabIndex = 11;
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new System.Drawing.Point(343, 29);
-            txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new System.Drawing.Size(100, 23);
-            txtTelefono.TabIndex = 12;
+            this.txtTelefono.Location = new System.Drawing.Point(343, 29);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(100, 23);
+            this.txtTelefono.TabIndex = 12;
             // 
             // txtDireccion
             // 
-            txtDireccion.Location = new System.Drawing.Point(462, 29);
-            txtDireccion.Name = "txtDireccion";
-            txtDireccion.Size = new System.Drawing.Size(100, 23);
-            txtDireccion.TabIndex = 13;
+            this.txtDireccion.Location = new System.Drawing.Point(462, 29);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(100, 23);
+            this.txtDireccion.TabIndex = 13;
             // 
             // Frm_MenuClientes
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources._212a40d0af2ac7285fa9b8416da447951;
-            BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            ClientSize = new System.Drawing.Size(714, 413);
-            Controls.Add(txtDireccion);
-            Controls.Add(txtTelefono);
-            Controls.Add(txtNombre);
-            Controls.Add(txtCliente);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(btnNuevo);
-            Controls.Add(btnSalir);
-            Controls.Add(btnEliminar);
-            Controls.Add(btnGuardar);
-            Controls.Add(btnBuscar);
-            Controls.Add(grdClientes);
-            DoubleBuffered = true;
-            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
-            MaximizeBox = false;
-            MinimizeBox = false;
-            Name = "Frm_MenuClientes";
-            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "Frm_MenuClientes";
-            Load += Frm_MenuClientes_Load;
-            ((System.ComponentModel.ISupportInitialize)grdClientes).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Capa_Presentacion_01.Properties.Resources._212a40d0af2ac7285fa9b8416da447951;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(826, 413);
+            this.Controls.Add(this.txtDireccion);
+            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.txtCliente);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnNuevo);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.grdClientes);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Frm_MenuClientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Frm_MenuClientes";
+            ((System.ComponentModel.ISupportInitialize)(this.grdClientes)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

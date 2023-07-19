@@ -29,360 +29,374 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_MenuFacturas));
-            dataGridView1 = new System.Windows.Forms.DataGridView();
-            ID_FACTURA = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            FECHA = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ID_CLIENTE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            SUBTOTAL = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            IMPUESTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            MONTODESCUENTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            btnNuevo = new System.Windows.Forms.Button();
-            btnSalir = new System.Windows.Forms.Button();
-            btnEliminar = new System.Windows.Forms.Button();
-            btnGuardar = new System.Windows.Forms.Button();
-            btnBuscar = new System.Windows.Forms.Button();
-            txtSubtotal = new System.Windows.Forms.TextBox();
-            txtCliente = new System.Windows.Forms.TextBox();
-            txtFecha = new System.Windows.Forms.TextBox();
-            txtFactura = new System.Windows.Forms.TextBox();
-            label4 = new System.Windows.Forms.Label();
-            label3 = new System.Windows.Forms.Label();
-            label2 = new System.Windows.Forms.Label();
-            label1 = new System.Windows.Forms.Label();
-            txtMontoDescuento = new System.Windows.Forms.TextBox();
-            txtImpuesto = new System.Windows.Forms.TextBox();
-            label5 = new System.Windows.Forms.Label();
-            label6 = new System.Windows.Forms.Label();
-            dataGridView2 = new System.Windows.Forms.DataGridView();
-            ID_FACTURA2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ID_PRODUCTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            CANTIDAD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            btnNuevo2 = new System.Windows.Forms.Button();
-            btnEliminar2 = new System.Windows.Forms.Button();
-            btnGuardar2 = new System.Windows.Forms.Button();
-            btnBuscar2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
-            SuspendLayout();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ID_FACTURA = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FECHA = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ID_CLIENTE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SUBTOTAL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IMPUESTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MONTODESCUENTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.txtSubtotal = new System.Windows.Forms.TextBox();
+            this.txtCliente = new System.Windows.Forms.TextBox();
+            this.txtFecha = new System.Windows.Forms.TextBox();
+            this.txtFactura = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtMontoDescuento = new System.Windows.Forms.TextBox();
+            this.txtImpuesto = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.ID_FACTURA2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ID_PRODUCTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CANTIDAD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnNuevo2 = new System.Windows.Forms.Button();
+            this.btnEliminar2 = new System.Windows.Forms.Button();
+            this.btnGuardar2 = new System.Windows.Forms.Button();
+            this.btnBuscar2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.SuspendLayout();
             // 
             // dataGridView1
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { ID_FACTURA, FECHA, ID_CLIENTE, SUBTOTAL, IMPUESTO, MONTODESCUENTO });
-            dataGridView1.Location = new System.Drawing.Point(77, 131);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new System.Drawing.Size(713, 197);
-            dataGridView1.TabIndex = 0;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID_FACTURA,
+            this.FECHA,
+            this.ID_CLIENTE,
+            this.SUBTOTAL,
+            this.IMPUESTO,
+            this.MONTODESCUENTO});
+            this.dataGridView1.Location = new System.Drawing.Point(77, 131);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(713, 197);
+            this.dataGridView1.TabIndex = 0;
             // 
             // ID_FACTURA
             // 
-            ID_FACTURA.DataPropertyName = "ID_FACTURA";
-            ID_FACTURA.HeaderText = "Factura";
-            ID_FACTURA.Name = "ID_FACTURA";
+            this.ID_FACTURA.DataPropertyName = "ID_FACTURA";
+            this.ID_FACTURA.HeaderText = "Factura";
+            this.ID_FACTURA.Name = "ID_FACTURA";
             // 
             // FECHA
             // 
-            FECHA.DataPropertyName = "FECHA";
-            FECHA.HeaderText = "Fecha";
-            FECHA.Name = "FECHA";
+            this.FECHA.DataPropertyName = "FECHA";
+            this.FECHA.HeaderText = "Fecha";
+            this.FECHA.Name = "FECHA";
             // 
             // ID_CLIENTE
             // 
-            ID_CLIENTE.DataPropertyName = "ID_CLIENTE";
-            ID_CLIENTE.HeaderText = "Cliente";
-            ID_CLIENTE.Name = "ID_CLIENTE";
+            this.ID_CLIENTE.DataPropertyName = "ID_CLIENTE";
+            this.ID_CLIENTE.HeaderText = "Cliente";
+            this.ID_CLIENTE.Name = "ID_CLIENTE";
             // 
             // SUBTOTAL
             // 
-            SUBTOTAL.DataPropertyName = "SUBTOTAL";
-            SUBTOTAL.HeaderText = "Subtotal";
-            SUBTOTAL.Name = "SUBTOTAL";
+            this.SUBTOTAL.DataPropertyName = "SUBTOTAL";
+            this.SUBTOTAL.HeaderText = "Subtotal";
+            this.SUBTOTAL.Name = "SUBTOTAL";
             // 
             // IMPUESTO
             // 
-            IMPUESTO.DataPropertyName = "IMPUESTO";
-            IMPUESTO.HeaderText = "Impuesto";
-            IMPUESTO.Name = "IMPUESTO";
+            this.IMPUESTO.DataPropertyName = "IMPUESTO";
+            this.IMPUESTO.HeaderText = "Impuesto";
+            this.IMPUESTO.Name = "IMPUESTO";
             // 
             // MONTODESCUENTO
             // 
-            MONTODESCUENTO.DataPropertyName = "MONTODESCUENTO";
-            MONTODESCUENTO.HeaderText = "Monto del Descuento";
-            MONTODESCUENTO.Name = "MONTODESCUENTO";
+            this.MONTODESCUENTO.DataPropertyName = "MONTODESCUENTO";
+            this.MONTODESCUENTO.HeaderText = "Monto del Descuento";
+            this.MONTODESCUENTO.Name = "MONTODESCUENTO";
             // 
             // btnNuevo
             // 
-            btnNuevo.Image = (System.Drawing.Image)resources.GetObject("btnNuevo.Image");
-            btnNuevo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnNuevo.Location = new System.Drawing.Point(250, 334);
-            btnNuevo.Name = "btnNuevo";
-            btnNuevo.Size = new System.Drawing.Size(75, 60);
-            btnNuevo.TabIndex = 10;
-            btnNuevo.Text = "&Nuevo";
-            btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevo.Image")));
+            this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnNuevo.Location = new System.Drawing.Point(250, 334);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(75, 60);
+            this.btnNuevo.TabIndex = 10;
+            this.btnNuevo.Text = "&Nuevo";
+            this.btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNuevo.UseVisualStyleBackColor = true;
             // 
             // btnSalir
             // 
-            btnSalir.Image = (System.Drawing.Image)resources.GetObject("btnSalir.Image");
-            btnSalir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnSalir.Location = new System.Drawing.Point(783, 606);
-            btnSalir.Name = "btnSalir";
-            btnSalir.Size = new System.Drawing.Size(75, 60);
-            btnSalir.TabIndex = 9;
-            btnSalir.Text = "&Salir";
-            btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
+            this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSalir.Location = new System.Drawing.Point(783, 606);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 60);
+            this.btnSalir.TabIndex = 9;
+            this.btnSalir.Text = "&Salir";
+            this.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnEliminar
             // 
-            btnEliminar.Image = (System.Drawing.Image)resources.GetObject("btnEliminar.Image");
-            btnEliminar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnEliminar.Location = new System.Drawing.Point(457, 334);
-            btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new System.Drawing.Size(75, 60);
-            btnEliminar.TabIndex = 8;
-            btnEliminar.Text = "&Eliminar";
-            btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
+            this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnEliminar.Location = new System.Drawing.Point(457, 334);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 60);
+            this.btnEliminar.TabIndex = 8;
+            this.btnEliminar.Text = "&Eliminar";
+            this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // btnGuardar
             // 
-            btnGuardar.Image = Properties.Resources.save_48;
-            btnGuardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnGuardar.Location = new System.Drawing.Point(350, 334);
-            btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new System.Drawing.Size(75, 60);
-            btnGuardar.TabIndex = 7;
-            btnGuardar.Text = "&Guardar";
-            btnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Image = global::Capa_Presentacion_01.Properties.Resources.save_48;
+            this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnGuardar.Location = new System.Drawing.Point(350, 334);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(75, 60);
+            this.btnGuardar.TabIndex = 7;
+            this.btnGuardar.Text = "&Guardar";
+            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnGuardar.UseVisualStyleBackColor = true;
             // 
             // btnBuscar
             // 
-            btnBuscar.Image = Properties.Resources.Search_48x48;
-            btnBuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnBuscar.Location = new System.Drawing.Point(155, 334);
-            btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new System.Drawing.Size(75, 60);
-            btnBuscar.TabIndex = 6;
-            btnBuscar.Text = "&Buscar";
-            btnBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Image = global::Capa_Presentacion_01.Properties.Resources.Search_48x48;
+            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnBuscar.Location = new System.Drawing.Point(155, 334);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(75, 60);
+            this.btnBuscar.TabIndex = 6;
+            this.btnBuscar.Text = "&Buscar";
+            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBuscar.UseVisualStyleBackColor = true;
             // 
             // txtSubtotal
             // 
-            txtSubtotal.Enabled = false;
-            txtSubtotal.Location = new System.Drawing.Point(430, 68);
-            txtSubtotal.Name = "txtSubtotal";
-            txtSubtotal.Size = new System.Drawing.Size(100, 23);
-            txtSubtotal.TabIndex = 21;
+            this.txtSubtotal.Enabled = false;
+            this.txtSubtotal.Location = new System.Drawing.Point(430, 68);
+            this.txtSubtotal.Name = "txtSubtotal";
+            this.txtSubtotal.Size = new System.Drawing.Size(100, 23);
+            this.txtSubtotal.TabIndex = 21;
             // 
             // txtCliente
             // 
-            txtCliente.Enabled = false;
-            txtCliente.Location = new System.Drawing.Point(311, 68);
-            txtCliente.Name = "txtCliente";
-            txtCliente.Size = new System.Drawing.Size(100, 23);
-            txtCliente.TabIndex = 20;
+            this.txtCliente.Enabled = false;
+            this.txtCliente.Location = new System.Drawing.Point(311, 68);
+            this.txtCliente.Name = "txtCliente";
+            this.txtCliente.Size = new System.Drawing.Size(100, 23);
+            this.txtCliente.TabIndex = 20;
             // 
             // txtFecha
             // 
-            txtFecha.Enabled = false;
-            txtFecha.Location = new System.Drawing.Point(199, 68);
-            txtFecha.Name = "txtFecha";
-            txtFecha.Size = new System.Drawing.Size(100, 23);
-            txtFecha.TabIndex = 19;
+            this.txtFecha.Enabled = false;
+            this.txtFecha.Location = new System.Drawing.Point(199, 68);
+            this.txtFecha.Name = "txtFecha";
+            this.txtFecha.Size = new System.Drawing.Size(100, 23);
+            this.txtFecha.TabIndex = 19;
             // 
             // txtFactura
             // 
-            txtFactura.Enabled = false;
-            txtFactura.Location = new System.Drawing.Point(79, 68);
-            txtFactura.Name = "txtFactura";
-            txtFactura.Size = new System.Drawing.Size(100, 23);
-            txtFactura.TabIndex = 18;
+            this.txtFactura.Enabled = false;
+            this.txtFactura.Location = new System.Drawing.Point(79, 68);
+            this.txtFactura.Name = "txtFactura";
+            this.txtFactura.Size = new System.Drawing.Size(100, 23);
+            this.txtFactura.TabIndex = 18;
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.Location = new System.Drawing.Point(430, 31);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(51, 15);
-            label4.TabIndex = 17;
-            label4.Text = "Subtotal";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(430, 31);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(51, 15);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "Subtotal";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new System.Drawing.Point(311, 31);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(44, 15);
-            label3.TabIndex = 16;
-            label3.Text = "Cliente";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(311, 31);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 15);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Cliente";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(199, 31);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(38, 15);
-            label2.TabIndex = 15;
-            label2.Text = "Fecha";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(199, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(38, 15);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Fecha";
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(79, 31);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(46, 15);
-            label1.TabIndex = 14;
-            label1.Text = "Factura";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(79, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 15);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Factura";
             // 
             // txtMontoDescuento
             // 
-            txtMontoDescuento.Enabled = false;
-            txtMontoDescuento.Location = new System.Drawing.Point(677, 68);
-            txtMontoDescuento.Name = "txtMontoDescuento";
-            txtMontoDescuento.Size = new System.Drawing.Size(100, 23);
-            txtMontoDescuento.TabIndex = 25;
+            this.txtMontoDescuento.Enabled = false;
+            this.txtMontoDescuento.Location = new System.Drawing.Point(677, 68);
+            this.txtMontoDescuento.Name = "txtMontoDescuento";
+            this.txtMontoDescuento.Size = new System.Drawing.Size(100, 23);
+            this.txtMontoDescuento.TabIndex = 25;
             // 
             // txtImpuesto
             // 
-            txtImpuesto.Enabled = false;
-            txtImpuesto.Location = new System.Drawing.Point(558, 68);
-            txtImpuesto.Name = "txtImpuesto";
-            txtImpuesto.Size = new System.Drawing.Size(100, 23);
-            txtImpuesto.TabIndex = 24;
+            this.txtImpuesto.Enabled = false;
+            this.txtImpuesto.Location = new System.Drawing.Point(558, 68);
+            this.txtImpuesto.Name = "txtImpuesto";
+            this.txtImpuesto.Size = new System.Drawing.Size(100, 23);
+            this.txtImpuesto.TabIndex = 24;
             // 
             // label5
             // 
-            label5.AutoSize = true;
-            label5.Location = new System.Drawing.Point(677, 31);
-            label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(121, 15);
-            label5.TabIndex = 23;
-            label5.Text = "Monto del Descuento";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(677, 31);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(121, 15);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "Monto del Descuento";
             // 
             // label6
             // 
-            label6.AutoSize = true;
-            label6.Location = new System.Drawing.Point(558, 31);
-            label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(57, 15);
-            label6.TabIndex = 22;
-            label6.Text = "Impuesto";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(558, 31);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(57, 15);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Impuesto";
             // 
             // dataGridView2
             // 
-            dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { ID_FACTURA2, ID_PRODUCTO, CANTIDAD });
-            dataGridView2.Location = new System.Drawing.Point(181, 400);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.RowTemplate.Height = 25;
-            dataGridView2.Size = new System.Drawing.Size(349, 172);
-            dataGridView2.TabIndex = 26;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID_FACTURA2,
+            this.ID_PRODUCTO,
+            this.CANTIDAD});
+            this.dataGridView2.Location = new System.Drawing.Point(181, 400);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowTemplate.Height = 25;
+            this.dataGridView2.Size = new System.Drawing.Size(349, 172);
+            this.dataGridView2.TabIndex = 26;
             // 
             // ID_FACTURA2
             // 
-            ID_FACTURA2.DataPropertyName = "ID_FACTURA2";
-            ID_FACTURA2.HeaderText = "Factura";
-            ID_FACTURA2.Name = "ID_FACTURA2";
+            this.ID_FACTURA2.DataPropertyName = "ID_FACTURA2";
+            this.ID_FACTURA2.HeaderText = "Factura";
+            this.ID_FACTURA2.Name = "ID_FACTURA2";
             // 
             // ID_PRODUCTO
             // 
-            ID_PRODUCTO.DataPropertyName = "ID_PRODUCTO";
-            ID_PRODUCTO.HeaderText = "Producto";
-            ID_PRODUCTO.Name = "ID_PRODUCTO";
+            this.ID_PRODUCTO.DataPropertyName = "ID_PRODUCTO";
+            this.ID_PRODUCTO.HeaderText = "Producto";
+            this.ID_PRODUCTO.Name = "ID_PRODUCTO";
             // 
             // CANTIDAD
             // 
-            CANTIDAD.DataPropertyName = "CANTIDAD";
-            CANTIDAD.HeaderText = "Cantidad";
-            CANTIDAD.Name = "CANTIDAD";
+            this.CANTIDAD.DataPropertyName = "CANTIDAD";
+            this.CANTIDAD.HeaderText = "Cantidad";
+            this.CANTIDAD.Name = "CANTIDAD";
             // 
             // btnNuevo2
             // 
-            btnNuevo2.Image = (System.Drawing.Image)resources.GetObject("btnNuevo2.Image");
-            btnNuevo2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnNuevo2.Location = new System.Drawing.Point(250, 578);
-            btnNuevo2.Name = "btnNuevo2";
-            btnNuevo2.Size = new System.Drawing.Size(75, 60);
-            btnNuevo2.TabIndex = 30;
-            btnNuevo2.Text = "&Nuevo";
-            btnNuevo2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnNuevo2.UseVisualStyleBackColor = true;
+            this.btnNuevo2.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevo2.Image")));
+            this.btnNuevo2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnNuevo2.Location = new System.Drawing.Point(250, 578);
+            this.btnNuevo2.Name = "btnNuevo2";
+            this.btnNuevo2.Size = new System.Drawing.Size(75, 60);
+            this.btnNuevo2.TabIndex = 30;
+            this.btnNuevo2.Text = "&Nuevo";
+            this.btnNuevo2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNuevo2.UseVisualStyleBackColor = true;
             // 
             // btnEliminar2
             // 
-            btnEliminar2.Image = (System.Drawing.Image)resources.GetObject("btnEliminar2.Image");
-            btnEliminar2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnEliminar2.Location = new System.Drawing.Point(457, 578);
-            btnEliminar2.Name = "btnEliminar2";
-            btnEliminar2.Size = new System.Drawing.Size(75, 60);
-            btnEliminar2.TabIndex = 29;
-            btnEliminar2.Text = "&Eliminar";
-            btnEliminar2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnEliminar2.UseVisualStyleBackColor = true;
+            this.btnEliminar2.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar2.Image")));
+            this.btnEliminar2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnEliminar2.Location = new System.Drawing.Point(457, 578);
+            this.btnEliminar2.Name = "btnEliminar2";
+            this.btnEliminar2.Size = new System.Drawing.Size(75, 60);
+            this.btnEliminar2.TabIndex = 29;
+            this.btnEliminar2.Text = "&Eliminar";
+            this.btnEliminar2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEliminar2.UseVisualStyleBackColor = true;
             // 
             // btnGuardar2
             // 
-            btnGuardar2.Image = Properties.Resources.save_48;
-            btnGuardar2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnGuardar2.Location = new System.Drawing.Point(350, 578);
-            btnGuardar2.Name = "btnGuardar2";
-            btnGuardar2.Size = new System.Drawing.Size(75, 60);
-            btnGuardar2.TabIndex = 28;
-            btnGuardar2.Text = "&Guardar";
-            btnGuardar2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnGuardar2.UseVisualStyleBackColor = true;
+            this.btnGuardar2.Image = global::Capa_Presentacion_01.Properties.Resources.save_48;
+            this.btnGuardar2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnGuardar2.Location = new System.Drawing.Point(350, 578);
+            this.btnGuardar2.Name = "btnGuardar2";
+            this.btnGuardar2.Size = new System.Drawing.Size(75, 60);
+            this.btnGuardar2.TabIndex = 28;
+            this.btnGuardar2.Text = "&Guardar";
+            this.btnGuardar2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnGuardar2.UseVisualStyleBackColor = true;
             // 
             // btnBuscar2
             // 
-            btnBuscar2.Image = Properties.Resources.Search_48x48;
-            btnBuscar2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            btnBuscar2.Location = new System.Drawing.Point(155, 578);
-            btnBuscar2.Name = "btnBuscar2";
-            btnBuscar2.Size = new System.Drawing.Size(75, 60);
-            btnBuscar2.TabIndex = 27;
-            btnBuscar2.Text = "&Buscar";
-            btnBuscar2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnBuscar2.UseVisualStyleBackColor = true;
+            this.btnBuscar2.Image = global::Capa_Presentacion_01.Properties.Resources.Search_48x48;
+            this.btnBuscar2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnBuscar2.Location = new System.Drawing.Point(155, 578);
+            this.btnBuscar2.Name = "btnBuscar2";
+            this.btnBuscar2.Size = new System.Drawing.Size(75, 60);
+            this.btnBuscar2.TabIndex = 27;
+            this.btnBuscar2.Text = "&Buscar";
+            this.btnBuscar2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBuscar2.UseVisualStyleBackColor = true;
             // 
             // Frm_MenuFacturas
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(870, 678);
-            Controls.Add(btnNuevo2);
-            Controls.Add(btnEliminar2);
-            Controls.Add(btnGuardar2);
-            Controls.Add(btnBuscar2);
-            Controls.Add(dataGridView2);
-            Controls.Add(txtMontoDescuento);
-            Controls.Add(txtImpuesto);
-            Controls.Add(label5);
-            Controls.Add(label6);
-            Controls.Add(txtSubtotal);
-            Controls.Add(txtCliente);
-            Controls.Add(txtFecha);
-            Controls.Add(txtFactura);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(btnNuevo);
-            Controls.Add(btnSalir);
-            Controls.Add(btnEliminar);
-            Controls.Add(btnGuardar);
-            Controls.Add(btnBuscar);
-            Controls.Add(dataGridView1);
-            Name = "Frm_MenuFacturas";
-            Text = "Frm_MenuFacturacion";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Capa_Presentacion_01.Properties.Resources._212a40d0af2ac7285fa9b8416da44795;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(873, 678);
+            this.Controls.Add(this.btnNuevo2);
+            this.Controls.Add(this.btnEliminar2);
+            this.Controls.Add(this.btnGuardar2);
+            this.Controls.Add(this.btnBuscar2);
+            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.txtMontoDescuento);
+            this.Controls.Add(this.txtImpuesto);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtSubtotal);
+            this.Controls.Add(this.txtCliente);
+            this.Controls.Add(this.txtFecha);
+            this.Controls.Add(this.txtFactura);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnNuevo);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.dataGridView1);
+            this.DoubleBuffered = true;
+            this.Name = "Frm_MenuFacturas";
+            this.Text = "Frm_MenuFacturacion";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

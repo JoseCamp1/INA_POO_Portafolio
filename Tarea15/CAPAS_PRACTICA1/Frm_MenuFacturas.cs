@@ -16,5 +16,10 @@ namespace Capa_Presentacion_01
         {
             InitializeComponent();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
