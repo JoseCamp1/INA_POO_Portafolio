@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Frm_MenuClientes.aspx" />
+    <Content Include="Frm_MenuFacturas.aspx" />
     <Content Include="Frm_MenuProductos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -87,6 +88,13 @@
     </Compile>
     <Compile Include="Frm_MenuClientes.aspx.designer.cs">
       <DependentUpon>Frm_MenuClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_MenuFacturas.aspx.cs">
+      <DependentUpon>Frm_MenuFacturas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Frm_MenuFacturas.aspx.designer.cs">
+      <DependentUpon>Frm_MenuFacturas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Frm_MenuProductos.aspx.cs">
       <DependentUpon>Frm_MenuProductos.aspx</DependentUpon>

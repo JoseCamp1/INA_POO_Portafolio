@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8qkNxbbcVDsYmVMOGZDZzC9RVR5bA7TIWtkhEGDXwIchQ1Uls3Q6883YS2TuEA17it1ooDIj6NWG0f8OiljIfA==",
+  "dgSpecHash": "+FudCrm8b3gN1ldf2ycsXlid84K+DziFj9n4OLQ4WkNs5Z38AHXxfM/hrb4hXDDrTlnMoARzdLhiLnbhY+yMFg==",
   "success": true,
-  "projectFilePath": "D:\\POO C#\\Tareas\\Tarea15\\Capa_AccesoDatos_03\\Capa_AccesoDatos_03.csproj",
+  "projectFilePath": "D:\\POO C#\\Tareas\\Tarea16\\Capa_AccesoDatos_03\\Capa_AccesoDatos_03.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JoaCa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\JoaCa\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

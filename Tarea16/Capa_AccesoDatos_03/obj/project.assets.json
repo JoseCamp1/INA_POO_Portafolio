@@ -881,11 +881,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\POO C#\\Tareas\\Tarea15\\Capa_AccesoDatos_03\\Capa_AccesoDatos_03.csproj",
+      "projectUniqueName": "D:\\POO C#\\Tareas\\Tarea16\\Capa_AccesoDatos_03\\Capa_AccesoDatos_03.csproj",
       "projectName": "Capa_AccesoDatos_03",
-      "projectPath": "D:\\POO C#\\Tareas\\Tarea15\\Capa_AccesoDatos_03\\Capa_AccesoDatos_03.csproj",
+      "projectPath": "D:\\POO C#\\Tareas\\Tarea16\\Capa_AccesoDatos_03\\Capa_AccesoDatos_03.csproj",
       "packagesPath": "C:\\Users\\JoaCa\\.nuget\\packages\\",
-      "outputPath": "D:\\POO C#\\Tareas\\Tarea15\\Capa_AccesoDatos_03\\obj\\",
+      "outputPath": "D:\\POO C#\\Tareas\\Tarea16\\Capa_AccesoDatos_03\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -906,8 +906,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\POO C#\\Tareas\\Tarea15\\Capa_Entidades\\Capa_Entidades.csproj": {
-              "projectPath": "D:\\POO C#\\Tareas\\Tarea15\\Capa_Entidades\\Capa_Entidades.csproj"
+            "D:\\POO C#\\Tareas\\Tarea16\\Capa_Entidades\\Capa_Entidades.csproj": {
+              "projectPath": "D:\\POO C#\\Tareas\\Tarea16\\Capa_Entidades\\Capa_Entidades.csproj"
             }
           }
         }

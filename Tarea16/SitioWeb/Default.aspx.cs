@@ -14,5 +14,19 @@ namespace SitioWeb
 
         }
 
+        protected void btnClientes_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Frm_MenuClientes.aspx");
+        }
+
+        protected void btnProductos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Frm_MenuProductos.aspx");
+        }
+
+        protected void btnFacturas_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Frm_MenuFacturas.aspx");
+        }
     }
 }

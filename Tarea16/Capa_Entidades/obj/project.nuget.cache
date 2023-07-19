@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M0IVmbALcIiC3awlAxi+RKMMnZzyLXnLq9+gtUYpTUZ7+cXvwBdcKkpwvQTaM6lwsURfLI2TZ7WWqWcqiitvow==",
+  "dgSpecHash": "6zWWHLABc60mSnlEM32ltvByav+Jh81cMBmb5/BJfuXvwAMxUZqEpgKLu5GVzzXhtmd17RIT/mqKPdwu+/5QsQ==",
   "success": true,
-  "projectFilePath": "D:\\POO C#\\Tareas\\Tarea15\\Capa_Entidades\\Capa_Entidades.csproj",
+  "projectFilePath": "D:\\POO C#\\Tareas\\Tarea16\\Capa_Entidades\\Capa_Entidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JoaCa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\JoaCa\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
