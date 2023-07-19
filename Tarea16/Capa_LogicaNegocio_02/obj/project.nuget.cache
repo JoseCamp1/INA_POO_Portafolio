@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vTeNSonZGIBmx7qCHXmdt/LBDQl94Of3df9ILHfu/ZLE2IGlOKUy5E+ckQedUAb5WvcWKm8tPG5h7Yhigu52XQ==",
+  "dgSpecHash": "XP4fS1EkRaxmbuR/fGJQv6nytzIcAPNwLYpv9WkB6VT3iJ3AqFBAd3IT2npP0xGGaGIRrdHHf92enyO5Iykv4g==",
   "success": true,
-  "projectFilePath": "D:\\POO C#\\Tareas\\Tarea15\\Capa_LogicaNegocio_02\\Capa_LogicaNegocio_02.csproj",
+  "projectFilePath": "D:\\POO C#\\Tareas\\Tarea16\\Capa_LogicaNegocio_02\\Capa_LogicaNegocio_02.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JoaCa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\JoaCa\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

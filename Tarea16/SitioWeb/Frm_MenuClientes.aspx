@@ -8,6 +8,11 @@
     <title>Menu Clientes</title>
 
     <style>
+
+        h1{
+            text-align:center
+        }
+
         #gridview{
             margin: 10px auto;
             width: 100%;
@@ -16,6 +21,10 @@
 
 </head>
 <body>
+
+    <header>
+        <h1>Menu Clientes</h1>
+    </header>
 
     <form id="form1" runat="server">
 
@@ -30,7 +39,7 @@
             <asp:TextBox ID="txtDireccion" runat="server"></asp:TextBox>
         </div>
         <div class="gridview">
-            <asp:GridView ID="grdClientes" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" EmptyDataText="No existen registros para mostrar" ForeColor="Black" GridLines="Horizontal" Width="60%">
+            <asp:GridView ID="grdClientes" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" EmptyDataText="No existen registros para mostrar" ForeColor="Black" GridLines="Horizontal" Width="80%">
                 <Columns>
                     <asp:TemplateField>
                         <ItemTemplate>
@@ -59,6 +68,7 @@
         </div>
 
         <div class="botones">
+            <asp:Button ID="btnRegresar" runat="server" Text="Regresar" OnClick="btnRegresar_Click" />
             <asp:Button ID="btnBuscar" runat="server" Text="Buscar" />
             <asp:Button ID="btnLimpiar" runat="server" Text="Limpiar" />
             <asp:Button ID="btnGuardar" runat="server" Text="Guardar" />
