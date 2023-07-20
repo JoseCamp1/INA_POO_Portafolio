@@ -6,7 +6,6 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Menu Productos</title>
-</head>
 
     <style>
 
@@ -16,10 +15,25 @@
 
         #gridview{
             margin: 10px auto;
-            
-        }        
+            width: 100%;
+        }
+
+        #form1{
+            margin: 10px auto;
+            width: 70%;
+        }
 
     </style>
+
+    <script type="text/javascript">
+
+        function mostrarMensaje(mensaje) {
+            alert(mensaje);
+        }
+
+    </script>
+
+</head> 
 
 <body>
 
@@ -30,19 +44,18 @@
     <form id="form1" runat="server">
 
         <div class="campos">
-            <asp:Label ID="Label1" runat="server" Text="ID Producto"></asp:Label>
-            <asp:TextBox ID="txtID_Producto" runat="server" Width="60px"></asp:TextBox>
-            <asp:Label ID="Label2" runat="server" Text="Descripcion"></asp:Label>
-            <asp:TextBox ID="txtDescripcion" runat="server"></asp:TextBox>
-            <asp:Label ID="Label3" runat="server" Text="Precio Compra"></asp:Label>
-            <asp:TextBox ID="txtPrecioCompra" runat="server" Width="60px"></asp:TextBox>
-            <asp:Label ID="Label4" runat="server" Text="Precio Venta"></asp:Label>
-            <asp:TextBox ID="txtPrecioVenta" runat="server" Width="60px"></asp:TextBox>
-            <asp:Label ID="Label5" runat="server" Text="Gravado"></asp:Label>
-            <asp:TextBox ID="txtGravado" runat="server" Width="60px"></asp:TextBox>
+            
+            <asp:Label ID="Label2" runat="server" Text="Nombre del Producto :"></asp:Label>
+            &nbsp;<asp:TextBox ID="txtDescripcion" runat="server"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button1" runat="server" Text="Buscar" OnClick="Button1_Click"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnAgregar" runat="server" Text="Agregar Nuevo"/>
+            <br />            
+            
         </div>
         <div class="gridview">
-            <asp:GridView ID="grdProductos" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" EmptyDataText="No existen registros para mostrar" ForeColor="Black" GridLines="Horizontal" Width="80%">
+            <asp:GridView ID="grdProductos" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" EmptyDataText="No existen registros para mostrar" ForeColor="Black" GridLines="Horizontal" Width="80%" OnPageIndexChanging="grdProductos_PageIndexChanging" PageSize="5">
                 <Columns>
                     <asp:TemplateField>
                         <ItemTemplate>
@@ -51,7 +64,7 @@
                     </asp:TemplateField>
                     <asp:TemplateField>
                         <ItemTemplate>
-                            <asp:LinkButton ID="InkEliminar" runat="server" CommandArgument='<%# Eval("ID_PRODUCTO").ToString() %>' CommandName="Eliminar">Eliminar</asp:LinkButton>
+                            <asp:LinkButton ID="InkEliminar" runat="server" CommandArgument='<%# Eval("ID_PRODUCTO").ToString() %>' CommandName="Eliminar" OnCommand="InkEliminar_Command">Eliminar</asp:LinkButton>
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:BoundField DataField="ID_PRODUCTO" HeaderText="Producto" />
@@ -72,13 +85,7 @@
         </div>
 
         <div class="botones">
-            <asp:Button ID="btnRegresar" runat="server" Text="Regresar" OnClick="btnRegresar_Click" />
-            <asp:Button ID="btnBuscar" runat="server" Text="Buscar" />
-            <asp:Button ID="btnLimpiar" runat="server" Text="Limpiar" />
-            <asp:Button ID="btnGuardar" runat="server" Text="Guardar" />
-            <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" />
-            <asp:Button ID="btnSalir" runat="server" Text="Salir" />
-            
+            <asp:Button ID="btnRegresar" runat="server" Text="Regresar" OnClick="btnRegresar_Click" />           
         </div>        
 
     </form>
