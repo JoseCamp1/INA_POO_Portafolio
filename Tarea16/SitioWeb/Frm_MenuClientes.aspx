@@ -17,6 +17,12 @@
             margin: 10px auto;
             width: 100%;
         }
+
+        #form1{
+            margin: 10px auto;
+            width: 70%;
+        }
+
     </style>
 
 </head>
@@ -28,18 +34,18 @@
 
     <form id="form1" runat="server">
 
-        <div class="campos">
-            <asp:Label ID="Label1" runat="server" Text="ID Cliente"></asp:Label>
-            <asp:TextBox ID="txtID_Cliente" runat="server"></asp:TextBox>
-            <asp:Label ID="Label2" runat="server" Text="Nombre"></asp:Label>
-            <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
-            <asp:Label ID="Label3" runat="server" Text="Telefono"></asp:Label>
-            <asp:TextBox ID="txtTelefono" runat="server"></asp:TextBox>
-            <asp:Label ID="Label4" runat="server" Text="Direccion"></asp:Label>
-            <asp:TextBox ID="txtDireccion" runat="server"></asp:TextBox>
+        <div>            
+            <asp:Label ID="Label2" runat="server" Text="Nombre del Cliente:"></asp:Label>
+            &nbsp;<asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button1" runat="server" Text="Buscar" OnClick="btnBuscar_Click" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnAgregar" runat="server" Text="Agregar Nuevo" OnClick="btnAgregar_Click" />
+            <br />            
         </div>
+
         <div class="gridview">
-            <asp:GridView ID="grdClientes" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" EmptyDataText="No existen registros para mostrar" ForeColor="Black" GridLines="Horizontal" Width="80%">
+            <asp:GridView ID="grdClientes" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" EmptyDataText="No existen registros para mostrar" ForeColor="Black" GridLines="Horizontal" Width="80%" OnPageIndexChanging="grdClientes_PageIndexChanging" PageSize="5">
                 <Columns>
                     <asp:TemplateField>
                         <ItemTemplate>
@@ -48,7 +54,7 @@
                     </asp:TemplateField>
                     <asp:TemplateField>
                         <ItemTemplate>
-                            <asp:LinkButton ID="InkEliminar" runat="server" CommandArgument='<%# Eval("ID_CLIENTE").ToString() %>' CommandName="Eliminar">Eliminar</asp:LinkButton>
+                            <asp:LinkButton ID="InkEliminar" runat="server" CommandArgument='<%# Eval("ID_CLIENTE").ToString() %>' CommandName="Eliminar" OnCommand="InkEliminar_Command">Eliminar</asp:LinkButton>
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:BoundField DataField="ID_CLIENTE" HeaderText="ID Cliente" />
@@ -68,12 +74,7 @@
         </div>
 
         <div class="botones">
-            <asp:Button ID="btnRegresar" runat="server" Text="Regresar" OnClick="btnRegresar_Click" />
-            <asp:Button ID="btnBuscar" runat="server" Text="Buscar" />
-            <asp:Button ID="btnLimpiar" runat="server" Text="Limpiar" />
-            <asp:Button ID="btnGuardar" runat="server" Text="Guardar" />
-            <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" />
-            <asp:Button ID="btnSalir" runat="server" Text="Salir" />
+            <asp:Button ID="btnRegresar" runat="server" Text="Regresar" OnClick="btnRegresar_Click" />            
         </div>        
         
     </form>
