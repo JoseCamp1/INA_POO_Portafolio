@@ -55,7 +55,7 @@
             
         </div>
         <div class="gridview">
-            <asp:GridView ID="grdProductos" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" EmptyDataText="No existen registros para mostrar" ForeColor="Black" GridLines="Horizontal" Width="80%" OnPageIndexChanging="grdProductos_PageIndexChanging" PageSize="5">
+            <asp:GridView ID="grdProductos" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" EmptyDataText="No existen registros para mostrar" ForeColor="Black" GridLines="Horizontal" Width="80%" OnPageIndexChanging="grdProductos_PageIndexChanging" PageSize="8">
                 <Columns>
                     <asp:TemplateField>
                         <ItemTemplate>
