@@ -7,13 +7,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Mantenimiento de Cliente</title>
 
-    <style>
-        #form1{
-            margin: 10px auto;
-            width: 60%;
-        }
-    </style>
-
+    <link href="Content/bootstrap.min.css" rel="stylesheet"/>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
     <script type="text/javascript">
         function mostrarMensaje(mensaje) {
             alert(mensaje);
@@ -22,12 +17,12 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-                <h1>Mantenimiento de Cliente</h1>          
-                <hr /><br />
-                <br />
-
-                <div>                    
+        <div class="container">
+            <h1 class="bg-secondary p-3 text-center">Mantenimiento de Cliente</h1>          
+            <hr /><br />
+            <br />
+        <div>    
+            
                     &nbsp;<asp:Label ID="lblid" runat="server" Text="Id:"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="txtId" runat="server" ReadOnly="True"></asp:TextBox>
                     <br />                    
@@ -42,9 +37,9 @@
                 </div>
 
                 <div>
-                    <asp:Button ID="btnGuardar" runat="server" Text="Guardar" OnClick="btnGuardar_Click" />
+                    <asp:Button ID="btnGuardar" runat="server" Text="Guardar" OnClick="btnGuardar_Click" CssClass="btn btn-outline-secondary" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" OnClick="btnCancelar_Click" />
+                    <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" OnClick="btnCancelar_Click" CssClass="btn btn-outline-secondary" />
                 </div>
 
             </div>

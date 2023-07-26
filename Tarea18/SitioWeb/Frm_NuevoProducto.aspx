@@ -6,7 +6,11 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Mantenimiento de Productos</title>
-<style>
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet"/>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+
+    <style>
         #form1{
             margin: 10px auto;
             width: 60%;
@@ -21,8 +25,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-                <h1>Mantenimiento de Productos</h1>          
+        <div class="container">
+                <h1 class="bg-secondary p-3 text-center">Mantenimiento de Productos</h1>          
                 <hr /><br />
                 <br />
 
@@ -43,9 +47,9 @@
                 </div>
 
                 <div>
-                    <asp:Button ID="btnGuardar" runat="server" Text="Guardar" OnClick="btnGuardar_Click" />
+                    <asp:Button ID="btnGuardar" runat="server" Text="Guardar" CssClass="btn btn-outline-secondary" OnClick="btnGuardar_Click" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" OnClick="btnCancelar_Click" />
+                    <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" CssClass="btn btn-outline-secondary" OnClick="btnCancelar_Click" />
                 </div>
 
             </div>
