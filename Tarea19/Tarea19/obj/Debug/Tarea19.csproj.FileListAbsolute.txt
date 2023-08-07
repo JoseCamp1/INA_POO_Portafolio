@@ -1,0 +1,7 @@
+D:\POO C#\Tareas\Tarea19\Tarea19\obj\Debug\Tarea19.csproj.AssemblyReference.cache
+D:\POO C#\Tareas\Tarea19\Tarea19\obj\Debug\Tarea19.csproj.CoreCompileInputs.cache
+D:\POO C#\Tareas\Tarea19\Tarea19\bin\Debug\Tarea19.exe.config
+D:\POO C#\Tareas\Tarea19\Tarea19\bin\Debug\Tarea19.exe
+D:\POO C#\Tareas\Tarea19\Tarea19\bin\Debug\Tarea19.pdb
+D:\POO C#\Tareas\Tarea19\Tarea19\obj\Debug\Tarea19.exe
+D:\POO C#\Tareas\Tarea19\Tarea19\obj\Debug\Tarea19.pdb
