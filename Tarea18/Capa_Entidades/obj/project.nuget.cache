@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lxfu/Jjwe4wQkjG8FukVdae5lbgcIlRBWoREiCnxxbUAne7ai9xQbThV+T5CXcI1NdOUSPzTGIE9ru7w322mxw==",
+  "dgSpecHash": "iW9waD6sw4rwBBkARWmbo/ztNiqLfG99E8Px8k55OrGC+wUhzxu7KLwNgvdHRB7t7f2/L+8mgmkewUcHpcUJvg==",
   "success": true,
   "projectFilePath": "D:\\POO C#\\Tareas\\Tarea18\\Capa_Entidades\\Capa_Entidades.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\JoaCa\\.nuget\\packages\\bootstrap\\5.3.0\\bootstrap.5.3.0.nupkg.sha512",
     "C:\\Users\\JoaCa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\JoaCa\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\JoaCa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

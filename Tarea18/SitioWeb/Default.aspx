@@ -6,6 +6,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Menu Principal</title>
 
+    <link href="Content/bootstrap.min.css" rel="stylesheet"/>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+
     <style type="text/css">
         h1{
             text-align:center;
@@ -20,15 +23,19 @@
 
 <body>
 
-    <header>
-        <h1>Menu Principal</h1>
+    <header class="container">
+        <h1 class="bg-secondary p-3 text-center">Menu Principal</h1>
     </header>
 
     <form id="form1" runat="server">
 
-        <asp:LinkButton ID="btnClientes" runat="server" OnClick="btnClientes_Click" BackColor="#CCCCCC" BorderColor="White" BorderWidth="5px" ForeColor="Black">Clientes</asp:LinkButton>
-        <asp:LinkButton ID="btnProductos" runat="server" OnClick="btnProductos_Click" BackColor="#CCCCCC" BorderColor="White" BorderWidth="5px" ForeColor="Black">Productos</asp:LinkButton>
-        <asp:LinkButton ID="btnFacturas" runat="server" OnClick="btnFacturas_Click" BackColor="#CCCCCC" BorderColor="White" BorderWidth="5px" ForeColor="Black">Facturas</asp:LinkButton>
+        <div class="container p-3 text-center">
+            <asp:LinkButton ID="btnClientes" CssClass="btn btn-outline-secondary" runat="server" OnClick="btnClientes_Click" BorderStyle="None">Clientes</asp:LinkButton>
+            <asp:LinkButton ID="btnProductos" CssClass="btn btn-outline-secondary" runat="server" OnClick="btnProductos_Click" BorderStyle="None">Productos</asp:LinkButton>
+            <asp:LinkButton ID="btnFacturas" CssClass="btn btn-outline-secondary" runat="server" OnClick="btnFacturas_Click" BorderStyle="None">Facturas</asp:LinkButton>
+        </div>
+
+        
 
     </form>
 

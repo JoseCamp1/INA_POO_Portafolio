@@ -75,7 +75,7 @@ namespace SitioWeb
             {
                 MensajeScript = string.Format("javascript:mostrarMensaje('{0}')", ex.Message);
                 ScriptManager.RegisterStartupScript(this, typeof(string), "MensajeRetorno", MensajeScript, true);
-                Response.Redirect("Default.aspx");
+                Response.Redirect("Frm_MenuClientes.aspx");
             }
         }
 
@@ -137,7 +137,9 @@ namespace SitioWeb
                 {
                     MensajeScript = string.Format("javascript:mostrarMensaje" + "('Operacion realizada satisfactoriamente')");
                     ScriptManager.RegisterStartupScript(this, typeof(string), "MensajeRetorno", MensajeScript, true);
+                    //Response.Redirect("Frm_MenuClientes.aspx");
                     Response.Redirect("Frm_MenuClientes.aspx");
+
                 }
                 else
                 {
@@ -150,6 +152,7 @@ namespace SitioWeb
                 MensajeScript = string.Format("javascript:mostrarMensaje('{0}')", ex.Message);
                 ScriptManager.RegisterStartupScript(this, typeof(string), "MensajeRetorno", MensajeScript, true);
             }
+
         }
     }
 }
